@@ -2,17 +2,17 @@
 
 ## 项目预览
 
-![](img/1.png)
+![image](https://github.com/Shawn1030/vue_mall/tree/master/img/1.png)
 
-![](img/2.png)
+![image](https://github.com/Shawn1030/vue_mall/tree/master/img/2.png)
 
+![image](https://github.com/Shawn1030/vue_mall/tree/master/img/3.png)
 
-
-![](img/4.png)
-
-![](img/5.png)
+![image](https://github.com/Shawn1030/vue_mall/tree/master/img/4.png)
 
 
+
+![image](https://github.com/Shawn1030/vue_mall/tree/master/img/5.png)
 
 ## Project setup
 ```
