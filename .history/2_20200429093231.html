@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="../js/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <p v-if='ok'>表白成功</p>
+    <p v-else >表白失败</p>
+    <button @click='ok=!ok'>切换</button>
+  </div>
+
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        ok:false
+      },
+      methods: {}
+    });
+  </script>
+</body>
+
+</html>

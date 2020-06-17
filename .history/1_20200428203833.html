@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let p = {
+      firstName:'A',
+      lastName:'B'
+    }
+ 
+    Object.defineProperty(p,'fullName',{
+      set(value){
+        console.log(value);
+        
+      },
+      get(){
+        return this.firstName+this.lastName
+      
+      }
+      
+    })
+  </script>
+</body>
+</html>

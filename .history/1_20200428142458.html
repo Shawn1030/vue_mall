@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./node_modules/vue/dist//vue.js"></script>
+</head>
+
+<body>
+
+  <div id="app">
+    {{message}}
+  </div>
+
+  <script>
+    const cpnC=Vue.extend({
+      template:'#cpn'
+    })
+    const app = new Vue({
+
+      el: '#app',
+      data: {
+        message:'haha'
+      },
+      methods: {},
+      components:{
+        
+      }
+    });
+  </script>
+  <script>
+    const obj ={
+      name:'shawn'
+      
+    }
+    Object.defineProperty(obj,'name',{
+      value:
+    })
+    
+  </script>
+</body>
+
+</html>
