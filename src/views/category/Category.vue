@@ -1,6 +1,6 @@
 <template>
   <div id="category">
-    <nav-bar class="nav-bar"><div slot="center">商品分类</div></nav-bar>
+    <nav-bar class="nav-bar"><div slot="middle">商品分类</div></nav-bar>
     <div class="content">
       <tab-menu :categories="categories"
                 @selectItem="selectItem"/>
